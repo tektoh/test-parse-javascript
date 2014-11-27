@@ -1,0 +1,16 @@
+form.form-horizontal(ng-submit='signup()')
+  div.form-group
+    label.col-sm-2.control-label(for='inputUsername') Username
+    div.col-sm-10
+      input#inputUsername.form-control(type='text', placeholder='Username', ng-model='username', required)
+  div.form-group
+    label.col-sm-2.control-label(for='inputPassword') Password
+    div.col-sm-10
+      input#inputPassword.form-control(type='password', placeholder='Password', ng-model='password', required)
+  div.form-group
+    label.col-sm-2.control-label(for='inputEmail') Email
+    div.col-sm-10
+      input#inputEmail.form-control(type='email', placeholder='Email', ng-model='email', required)
+  div.form-group
+    div.col-sm-offset-2.col-sm-10
+      input.btn.btn-default(type='submit', value='Sign up')

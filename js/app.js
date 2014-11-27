@@ -1,0 +1,2 @@
+(function(){define(["angular","angularRoute","controllers/HomeCtrl","controllers/SignupCtrl"],function(l){var r;return r=l.module("app",["ngRoute","controllers.HomeCtrl","controllers.SignupCtrl"]),r.config(["$routeProvider","$locationProvider",function(l,r){return l.when("/",{templateUrl:"/html/home.html",controller:"HomeCtrl"}),l.when("/signup",{templateUrl:"/html/signup.html",controller:"SignupCtrl"}),r.html5Mode({enabled:!0,requireBase:!1})}])})}).call(this);
+//# sourceMappingURL=../maps/app.js.map
